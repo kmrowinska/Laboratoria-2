@@ -193,7 +193,7 @@ namespace WindowsFormsApp3
 
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
-            var markam = comboBox1.SelectedItem;
+            var markam = comboBox2.SelectedItem;
 
             if (markam.ToString() == "1920x1200")
             {
@@ -354,6 +354,11 @@ namespace WindowsFormsApp3
                     label5.Text = Form1.mon.ToString();
                 }
             }
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

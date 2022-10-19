@@ -128,6 +128,7 @@
             this.label5.Size = new System.Drawing.Size(15, 16);
             this.label5.TabIndex = 8;
             this.label5.Text = "0";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // Form3
             // 
